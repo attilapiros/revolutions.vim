@@ -13,7 +13,7 @@ let g:colors_name = 'revolutions'
 
 hi Boolean        guifg=#e6fff3 guibg=#43705a gui=none
 hi Character      guifg=#e6fff3 guibg=#43705a gui=none
-hi Comment        guifg=#43705a guibg=#000000 gui=underline
+hi Comment        guifg=#43705a guibg=#000000 gui=none
 hi Conditional    guifg=#e6fff3 guibg=#000000 gui=bold
 hi Constant       guifg=#e6fff3 guibg=#43705a gui=none
 hi Cursor         guifg=#43705a guibg=#e6fff3 gui=none
@@ -73,3 +73,19 @@ hi Visual         guifg=#e6fff3 guibg=#61a181 gui=none
 hi VisualNOS      guifg=#9bcfb5 guibg=#000000 gui=underline
 hi WarningMsg     guifg=#1d3026 guibg=#61a181 gui=bold
 hi WildMenu       guifg=#43705a guibg=#e6fff3 gui=none
+
+hi  Pmenu        guifg=#1d3026 guibg=#61a181 gui=none
+hi  PmenuSel     guifg=#e6fff3 guibg=#61a181 gui=bold
+
+hi default link ColorColumn FoldColumn
+hi default link SignColumn FoldColumn
+
+hi default link GitGutterAdd FoldColumn
+hi default link GitGutterChange DiffChange
+hi default link GitGutterDelete DiffDelete
+hi default link GitGutterAddLine DiffAdd
+hi default link GitGutterChangeLine DiffChange
+hi default link GitGutterDeleteLine DiffAdd
+hi default link GitGutterChangeDeleteLine DiffDelete
+
+hi clear NonText
